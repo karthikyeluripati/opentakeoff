@@ -1,0 +1,16 @@
+{
+  "name": "door-gap-leak",
+  "description": "The clean room with a 60px opening in the bottom wall (an undrawn door). The strict fill escapes through the gap and floods the sheet — the honest LEAK outcome, no gap-closing tolerance exists yet. No golden: a leak is a refusal to guess, not a room.",
+  "source": "synthetic — authored for this project (no third-party plan data)",
+  "img": { "w": 600, "h": 600 },
+  "segs": [
+    150, 150, 400, 150,
+    400, 150, 400, 350,
+    400, 350, 310, 350,
+    250, 350, 150, 350,
+    150, 350, 150, 150
+  ],
+  "seed": [275, 250],
+  "expect": { "status": "leak" },
+  "golden": null
+}

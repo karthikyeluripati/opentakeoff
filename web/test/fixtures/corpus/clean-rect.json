@@ -1,0 +1,15 @@
+{
+  "name": "clean-rect",
+  "description": "A plain enclosed rectangular room on an empty sheet — the happy path. Strict fill succeeds; no hatch, no escalation. Golden is the wall-inner interior.",
+  "source": "synthetic — authored for this project (no third-party plan data)",
+  "img": { "w": 600, "h": 600 },
+  "segs": [
+    150, 150, 400, 150,
+    400, 150, 400, 350,
+    400, 350, 150, 350,
+    150, 350, 150, 150
+  ],
+  "seed": [275, 250],
+  "expect": { "status": "ok" },
+  "golden": [[150, 150], [400, 150], [400, 350], [150, 350]]
+}
